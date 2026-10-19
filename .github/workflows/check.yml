@@ -1,0 +1,14 @@
+name: Source and experiment-plan checks
+on: [push, pull_request]
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+      - run: python scripts/verify_release.py
+      - run: python -m unittest discover -s experiments/fixed_budget/tests -p 'test_planning.py' -v
+      - name: Check shell syntax
+        run: for script in scripts/*.sh; do bash -n "$script"; done

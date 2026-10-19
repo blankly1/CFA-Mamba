@@ -1,0 +1,11 @@
+{
+  "workspace": "auto",
+  "code_root": "auto",
+  "dataset_root": "data",
+  "source_root": "weights/source",
+  "clip_weights": "weights/clip/ViT-B-16-laion2b_s34b_b88k/open_clip_pytorch_model.bin",
+  "output_root": "outputs/fixed_budget",
+  "baseline_profile": "sfmamba_officehome.released_code.json",
+  "source_bundles": "source_bundles.json",
+  "class_mapping_attestations": "class_mapping_attestations.json"
+}

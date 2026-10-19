@@ -1,0 +1,5 @@
+Python: 3.10.12
+Platform: Linux x86_64
+PyTorch: 2.1.0+cu121
+CUDA runtime: 12.1
+cuDNN: 8902

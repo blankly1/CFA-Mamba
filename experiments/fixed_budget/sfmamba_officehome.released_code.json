@@ -1,0 +1,14 @@
+{
+  "reviewed": true,
+  "evidence": "Audited 2026-10-03 against the archived upstream SfMamba source bundle, SHA256 84e9f612bc783e5fc80fdaea7580b951791715c603ccdc200a80a332b3f08721. run_sfda_officeHome.sh plus main_target.py defaults. Released-code configuration reference, not proof of original published-run reproduction. Restricted to Office-Home, 15 epochs; shared source bundle, seed, endpoint and sampling protocol are defined by NC_FIXED_20260930_RUNTIME_v2.",
+  "par_ent": 1.0,
+  "par_cls": 0.3,
+  "par_st": 1.0,
+  "div_loss": true,
+  "pseu_target": "cluster",
+  "sel": true,
+  "clean_ratio": 0.6,
+  "su_cl_t": 5.0,
+  "add_contrast": false,
+  "reg_weight": false
+}

@@ -1,0 +1,7 @@
+name: cfa-mamba
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pip
+# Install CUDA PyTorch, requirements.txt and the extension using INSTALL.md.

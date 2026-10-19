@@ -1,0 +1,10 @@
+# Runtime dependencies are inherited from the copied CFA-Mamba environment.
+# This file is documentation only; the launchers do not install packages.
+torch
+torchvision
+timm
+yacs
+numpy
+open_clip_torch
+pyyaml
+fvcore
